@@ -1,3 +1,3 @@
-import './normalize.css'
+import './normalize.scss'
 import './variables.scss'
 import './globals.scss'
