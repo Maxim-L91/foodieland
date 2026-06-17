@@ -1,6 +1,7 @@
 import './Header.scss'
 import clsx from 'clsx'
 import Logo from "@/components/Logo"
+import Socials from '@/components/Socials/Socials'
 
 export default (props) => {
   const { url } = props
@@ -23,7 +24,7 @@ export default (props) => {
                 <a 
                   className={clsx(
                     'header__menu-link',
-                    href === url && 'is-active',
+                    href === url && 'is-active'
                   )}
                   href={href}
                 >
@@ -33,6 +34,7 @@ export default (props) => {
             ))}
           </ul>
         </nav>
+        <Socials className="header__soc1als" />
       </div>
     </header>
   )
