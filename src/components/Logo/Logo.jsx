@@ -1,4 +1,5 @@
 import clsx from 'clsx'
+import './Logo.scss'
 
 export default (props) => {
   const { className, loading = 'lazy' } = props
@@ -16,8 +17,8 @@ export default (props) => {
         className="logo__image"
         src="/images/logo.svg"
         alt=""
-        width={100}
-        height={100}
+        width={110}
+        height={30}
         loading={loading}
       />
     </a>

@@ -2,9 +2,17 @@
   --color-black: #000000;
   --color-white: #ffffff;
   --color-gray: rgb(0 0 0 / .1);
+  --color-accent: #e50000;
   --gradient: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #e7f9fd 100%);
 
   --border-radius-m: 60px;
   --border-radius: 30px;
   --border-radius-s: 16px;
+
+  --font-family-base: 'Inter';
+
+  --container-width: #{$container-desctop-width}px;
+  --container-padding-x: 16px;
+
+  --transition-duration: 0.2s;
 }

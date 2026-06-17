@@ -9,7 +9,7 @@ export default (props) => {
   return (
     <>
       <Head htmlAttributes={{ lang: 'en' }}>
-        <title>{`Start ${title}`}</title>
+        <title>{`Foodiland | ${title}`}</title>
         <script src="/src/main.js" type="module" />
       </Head>
       <Header url={url} />
