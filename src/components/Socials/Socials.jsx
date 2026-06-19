@@ -32,6 +32,7 @@ export default (props) => {
               href="/"
               title={label}
             >
+              <span className='visually-hidden'> {label} </span>
               <Icon name={icon} hasFill />
             </a>
           </li>
